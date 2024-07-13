@@ -1,3 +1,4 @@
+<?php include_once('template_atas.php'); ?>
 <?php
 include 'tahunAjaran.php';
 include_once 'koneksi.php';
@@ -71,3 +72,4 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 </body>
 </html>
+<?php include_once('template_bawah.php'); ?>
